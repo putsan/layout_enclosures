@@ -1,0 +1,34 @@
+.block {
+  padding: 10px;
+  background-color: #ffa500;
+}
+
+.block,
+.content {
+  border: 1px solid #e75551;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+}
+
+body > .block {
+  width: 328px;
+  background-color: #308dc0;
+  margin: 40px 20px;
+}
+
+.block:first-child {
+  margin-top: 20px;
+}
+
+.block > .block {
+  margin: 0;
+}
+
+.content {
+  background: #ddd;
+  padding: 10px;
+  margin: 0;
+}
